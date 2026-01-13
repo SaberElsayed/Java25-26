@@ -5,7 +5,7 @@ public class Main {
         System.out.printf("Hello and welcome!");
 
         for (int i = 1; i <= 5; i++) {
-            System.out.println("Assalamu Alayikum");
+            System.out.println("Assalamu Alaiykum");
         }
     }
 }
