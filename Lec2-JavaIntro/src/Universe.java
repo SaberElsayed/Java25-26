@@ -1,7 +1,8 @@
 import java.util.*;
 
 /**
- * @author SAer
+ * This class shows simple java commands, like println, variables and scanner
+ * @author Saber Elsayed
  */
 public class Universe {
 
@@ -16,14 +17,14 @@ public class Universe {
 
         Scanner input=new Scanner(System.in);
         System.out.println("Enter number");
-        double a= input.nextInt();
-        int b= input.nextInt();
-        String name= input.next();
-
+        double a= input.nextDouble(); // reads floating-point data
+        int b= input.nextInt(); // reads an integer
+        String name= input.next(); // reads a string
+        input.nextLine(); // consume leftover newline but does not store it
         System.out.println("the value entered is" + a + " " + b + "Name is " + name);
 
         System.out.println("Enter statement");
-        String line = input.nextLine();
+        String line = input.nextLine(); // reads whole line
 
         System.out.println("the string entered is" + line);
 
