@@ -1,11 +1,12 @@
 import java.util.*;
 
-/**
+/** <b> Saber Elsayed
+ * </b>
  * This class shows simple java commands, like println, variables and scanner
  * @author Saber Elsayed
  */
 public class Universe {
-
+    // main method
     public static void main(String[] args) {
         System.out.println("Hello World");
         System.out.println("Hello World");
