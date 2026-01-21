@@ -29,11 +29,10 @@ public class Main {
         System.out.println(text.toUpperCase()); // convert the text to uppercase
         System.out.println(text.replace(" ", "!!!"));
         System.out.println(text.replace("e", "yyyyyyyyy"));
-        System.out.println(text.equals("Hello everyONE"));
-
+        System.out.println(text.equals("Hello everyONE"));// is the text saved equal to "Hello everyONE"
 
         System.out.println(text.isEmpty()); // check if the text is empty
-        System.out.println(text.equalsIgnoreCase("Hello everyONE")); // compare two text ignoring the case
+        System.out.println(text.equalsIgnoreCase("Hello everyONE")); // compare two texts ignoring the case
         System.out.println(text.substring(1, 5)); // take a portion/subset of the text from index 0 to index 5
 
 
