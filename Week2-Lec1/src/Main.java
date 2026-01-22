@@ -39,12 +39,13 @@ public class Main {
         text = text.replace("e", "yyyyyyyyy"); // this will update the original text
         System.out.println(text);
 
-        System.out.println((8 / 2) + 7 * 2 - (10 / 2) + (8 % 3));// expected outcome is 15
+        System.out.println((8 / 2) + 7 * 2 - (10 / 2) + (8 % 3));// the expected outcome is 15
 
 
         //System.out.println(1/0); // run time error
         int cc = 032;
-        System.out.println(cc); // this will print the number in octal system, as the number starts with 0
+        System.out.println(cc); // this will print the number in an octal system, as the number starts with 0
+
     }
 
 }
