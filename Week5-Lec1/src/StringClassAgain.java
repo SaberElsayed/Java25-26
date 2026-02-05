@@ -15,7 +15,12 @@ public class StringClassAgain {
      * @param args input parameters
      */
     public static void main(String[] args) {
+
+
         double a = 0.555555176876871;
+
+        double updatedA = Math.round(a * 1000) / 1000.0;
+
         System.out.println((float) a); // cast double to float
 
         float b = 0.555555176876871f; // we need to use f to define a variable of type float
@@ -42,8 +47,8 @@ public class StringClassAgain {
         System.out.println(text);
 
 
-        for(int i = 0; i < text.length(); i++){
-            if(text.charAt(i) == 'e'){
+        for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i) == 'e') {
                 System.out.println("location is " + i);
                 break;
             }
@@ -51,7 +56,7 @@ public class StringClassAgain {
 
         text = "Hello EveryONE";
 
-       System.out.println(text.indexOf("e"));
+        System.out.println(text.indexOf("e"));
         System.out.println(text.lastIndexOf("e"));
 
         System.out.println(text.substring(4, 8));
@@ -77,14 +82,14 @@ public class StringClassAgain {
         System.out.println("Last name is: " + name.substring(location + 1));
 
 
-        double yy= 5.5;
-        int yInt=  (int)yy;
+        double yy = 5.5;
+        int yInt = (int) yy;
 
         String value1 = "50.5";
         String value2 = "150.7";
 
         // int total = Integer.parseInt(value1)+ Integer.parseInt(value2);
-        double total = Double.parseDouble(value1)+ Double.parseDouble(value2);
+        double total = Double.parseDouble(value1) + Double.parseDouble(value2);
         System.out.println(total);
 
         //---------------------Palindrome------------------
