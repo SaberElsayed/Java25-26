@@ -1,5 +1,5 @@
 /**
- * Classes and Objects
+ * Classes and Objects - later we will learn how to ensure encapsulation
  *
  * @author Saber Elsayed
  * @version 1.0
