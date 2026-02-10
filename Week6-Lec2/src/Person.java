@@ -7,25 +7,30 @@
  */
 public class Person {
 
-    String  name; // will talk about private variables later
+    String name; // will talk about private variables later
     int age;
     int id;
 
-    Person(){
-        name="Saber";
-        age=20;
-        id=1111;
+    Person() {
+        name = "Saber";
+        age = 20;
+        id = 1111;
     }
 
-    Person(String initialName,int initialAge){
-        name=initialName;
-        age=initialAge;
-        id=1111;
+    Person(String initialName, int initialAge) {
+        name = initialName;
+        age = initialAge;
+        id = 1111;
     }
-    Person(String initialName, int intialAge, int initialID){
-        name=initialName;
-        age=intialAge;
-        id=initialID;
+
+    Person(String initialName, int intialAge, int initialID) {
+        name = initialName;
+        age = intialAge;
+        id = initialID;
+    }
+
+    private void setname(String newName) {
+        name = newName;
     }
 
     @Override
@@ -37,18 +42,17 @@ public class Person {
                 '}';
     }
 
-    public  static void main(String [] args){
+    public static void main(String[] args) {
+
 
         Person p1 = new Person();
-       System.out.println("Person 1:" +  p1.name + "\t" + p1.age + "\t" + p1.id);
+        System.out.println("Person 1:" + p1.name + "\t" + p1.age + "\t" + p1.id);
 
         Person p2 = new Person("Ali", 50);
-        System.out.println("Person 2: " +  p2.name + "\t" + p2.age + "\t" + p2.id);
+        System.out.println("Person 2: " + p2.name + "\t" + p2.age + "\t" + p2.id);
 
         Person p3 = new Person("Mohamed", 30, 1000);
-        System.out.println("Person 3: "+   p3.name + "\t" + p3.age + "\t" + p3.id);
-
-
+        System.out.println("Person 3: " + p3.name + "\t" + p3.age + "\t" + p3.id);
 
         System.out.println(p1);
         System.out.println(p2);
@@ -56,5 +60,4 @@ public class Person {
 
 
     }
-
 }
