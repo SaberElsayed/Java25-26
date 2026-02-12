@@ -11,7 +11,7 @@ public class ReadingDataFromFilesAgain {
            while (input.hasNext()) {
               // System.out.print(input.nextInt() + " \t");
 
-               fw.write(String.valueOf(input.nextInt()));
+               fw.write(String.valueOf(input.nextInt()) + "\t");
 
            }
 
