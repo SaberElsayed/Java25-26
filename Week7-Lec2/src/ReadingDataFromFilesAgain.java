@@ -1,9 +1,12 @@
 import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReadingDataFromFilesAgain {
 
     public static void main(String[] args) {
+
+
         try {
             Scanner input = new Scanner(new FileReader("data.txt"));
             FileWriter fw = new FileWriter("outputData.txt");
