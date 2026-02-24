@@ -9,6 +9,8 @@ import java.util.Arrays;
 
 public class ArraysClass {
     public static void main(String[] args) {
+
+
         int[] a = new int[]{1, 2, 3, 4, 5}; // one way to define an array
         int[] b = {1, 2, 3, 4, 5}; // another way to define an array
 

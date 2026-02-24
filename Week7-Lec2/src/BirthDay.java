@@ -22,4 +22,7 @@ public class BirthDay {
                 ", year=" + year +
                 '}';
     }
+    public static void main(String[] args) {
+
+    }
 }
