@@ -10,6 +10,8 @@ import java.util.LinkedList;
 
 public class ArraysAgain {
     public static void main(String[] args) {
+
+
         int[] a = {23, 3, 5, 44, 50, 65, 77, 80};
         int[] b = {23, 3, 5, 44, 50, 65, 77, 80};
 
@@ -126,7 +128,7 @@ public class ArraysAgain {
         LinkedList<Integer> aList2 = new LinkedList<>();
         aList2.add(25);
         aList2.add(30);
-        aList.remove(0);
+        aList2.remove(0);
         //... try more methods
 
     }
