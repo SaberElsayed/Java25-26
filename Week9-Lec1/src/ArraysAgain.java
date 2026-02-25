@@ -20,6 +20,7 @@ public class ArraysAgain {
             System.out.print(a[i] + " \t");
         }
         System.out.println();
+        // for each loop to iterate through and print all elements of the array
         for (int value : a) {
             System.out.print(value + "\t");
         }
@@ -29,16 +30,16 @@ public class ArraysAgain {
         Arrays.sort(b);
 
         System.out.println(Arrays.toString(a));
-//
+
+        //Check two arrays are the same
         System.out.println(Arrays.equals(a, b));
 
-
+        //Another method to compare arrays: returns 0 if a=b, negative number if array a is less than b, else positive
         System.out.println(Arrays.compare(a, b));
         //binary search
         System.out.println(Arrays.binarySearch(a, 25));
 
 
-        // check two arrays are the same
 
         System.out.println("-------2D ARRAYS---------");
         // define a 2D array
