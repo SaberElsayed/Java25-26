@@ -1,6 +1,7 @@
 /**
  * Working with Arrays: 1-D and 2-D
  * LinkedList and ArrayList
+ *
  */
 
 import java.util.ArrayList;
@@ -10,7 +11,6 @@ import java.util.LinkedList;
 
 public class ArraysAgain {
     public static void main(String[] args) {
-
 
         int[] a = {23, 3, 5, 44, 50, 65, 77, 80};
         int[] b = {23, 3, 5, 44, 50, 65, 77, 80};
