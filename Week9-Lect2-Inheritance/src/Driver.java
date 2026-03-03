@@ -1,6 +1,11 @@
 public class Driver {
     public static void main(String[] args) {
+
         BankAccount bankAccount = new BankAccount("Saber", 0, 12345);
+        BankAccount bankAccount2 = new BankAccount("Saber", 0, 12345);
+
+        System.out.println(bankAccount2==bankAccount);// should return false
+        System.out.println(bankAccount2.equals(bankAccount));
 
         System.out.println(bankAccount);
 
